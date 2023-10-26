@@ -10,7 +10,7 @@ import com.example.jetweather.screens.WeatherSplashScreen
 fun WeatherNavigation() {
     val navController = rememberNavController()
     NavHost(navController = navController, startDestination = WeatherScreens.SplashScreen.name) {
-        composable(route = WeatherScreens.MainScreen.name) {
+        composable(route = WeatherScreens.SplashScreen.name) {
             WeatherSplashScreen(navController = navController)
         }
     }
