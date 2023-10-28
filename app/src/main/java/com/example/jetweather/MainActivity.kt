@@ -27,8 +27,6 @@ class MainActivity : ComponentActivity() {
     }
 }
 
-// Weather API: 3b3d2f41895d0d5fdfc0a407e7d5f03f
-
 @Composable
 fun WeatherApp() {
     JetWeatherTheme {
